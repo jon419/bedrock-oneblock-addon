@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+      "description": "Bedrock One Block [BP]",
+      "name": "Bedrock One Block [BP]",
+      "uuid": "2111158c-4dcc-489a-9461-306130acf290",
+      "version": [1, 0, 0],
+      "min_engine_version": [ 1, 18, 0 ]
+  },
+  "modules": [
+      {
+          "type": "data",
+          "uuid": "e4c96a1d-b522-497f-ab48-1539f540c6d6",
+          "version": [1, 0, 0]
+      }
+  ]
+}
