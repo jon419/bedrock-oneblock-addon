@@ -1,4 +1,4 @@
-tp @e[x=0,dx=0,y=63,dy=0,z=0,dz=0] ~ 64 ~
+execute @e[tag=system,scores={foundair=1}] ~ ~ ~ tp @e[x=0,dx=0,y=63,dy=0,z=0,dz=0] 0 64 0
 
 execute @e[tag=system,scores={foundair=1}] ~ ~ ~ scoreboard players set @e[tag=system] cooldown 5
 

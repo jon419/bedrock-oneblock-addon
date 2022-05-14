@@ -18,7 +18,6 @@ scoreboard objectives add usermined dummy
 scoreboard objectives add upgradecountdown dummy
 scoreboard objectives add upgrade dummy
 scoreboard objectives add second dummy
-scoreboard objectives add upgrade dummy
 
 execute @e[tag=system] ~ ~ ~ scoreboard players add @e[tag=system] upgrade 0
 execute @e[tag=system] ~ ~ ~ function block/manage
