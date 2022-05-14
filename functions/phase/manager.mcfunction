@@ -12,7 +12,7 @@ execute @e[tag=system,scores={counter=283,cooldown=1}] ~ ~ ~ scoreboard players 
 #execute as @s[scores={ija-a4-counter=48,ija-a4-cooldown=1}] run function phase/spawn-upgrade-entities
 execute @e[tag=system,scores={counter=283,cooldown=1}] ~ ~ ~ setblock 0 63 0 bedrock
 
-execute @e[tag=system,scores={counter=284..680,cooldown=1}] ~ ~ ~ function phase/03
+execute @e[tag=system,scores={counter=284..680,cooldown=1}] ~ ~ ~ function phase/02
 execute @e[tag=system,scores={counter=681,cooldown=1}] ~ ~ ~ scoreboard players set @e[tag=system] upgrade 600
 #execute as @s[scores={ija-a4-counter=48,ija-a4-cooldown=1}] run function phase/spawn-upgrade-entities
 execute @e[tag=system,scores={counter=681,cooldown=1}] ~ ~ ~ setblock 0 63 0 bedrock

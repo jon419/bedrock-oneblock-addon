@@ -31,3 +31,18 @@ Warning Border:
 /tag @a remove warning
 
 /tag @s add MOD
+
+
+# Todo
+- Death Check
+- Summon mobs with gear?
+- Chest sound and particle
+- Upgrade bedrock particle
+- mob spawn sound
+- Fix readme
+- build applicatoin to generate phases
+- Make mctemplate
+- Add void dimension json
+- Give all chest structures names
+- Color code names in chest structures
+- investigate bonus rolls in loot tables?
