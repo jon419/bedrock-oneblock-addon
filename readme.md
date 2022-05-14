@@ -7,3 +7,27 @@ testforblock 0 63 0 air
 command block
 chain, conditional, always active
 scoreboard players set @e[tag=system] foundair 1
+
+
+
+
+YouTube credit: https://www.youtube.com/watch?v=FuCK1e7d_as
+World border:
+/execute @a ~~~ tag @a[x=-4000,y=-110,z=-4000,dx=8000,dy=500,dz=8000] add inside
+
+/tp @a[tag=!inside,tag=!MOD] 0 100 0
+
+/tag @a remove inside
+
+
+
+Warning Border:
+/execute @a ~~~ tag @s[x=-3980,y=-110,z=-3980,dx=7960,dy=480,dz=7960] add warning
+
+/title @a[tag=!warning,tag=!MOD] actionbar §l§6Approaching the border! §4Watch Out!
+
+/playsound break.amethyst_block @a[tag=!warning,tag=!MOD]
+
+/tag @a remove warning
+
+/tag @s add MOD
