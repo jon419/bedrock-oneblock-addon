@@ -1,6 +1,6 @@
 execute @e[tag=system] ~ ~ ~ title @a clear
-execute @e[tag=system,scores={counter=49}] ~ ~ ~ title @a times 20 200 20
-execute @e[tag=system,scores={counter=49}] ~ ~ ~ title @a actionbar §6You reached phase 2: §7The Underground!
+execute @e[tag=system,scores={counter=284}] ~ ~ ~ title @a times 20 200 20
+execute @e[tag=system,scores={counter=284}] ~ ~ ~ title @a actionbar §6You reached phase 2: §7The Underground!
 
 execute @e[tag=system,scores={counter=284..295,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 stone 0 replace barrier
 execute @e[tag=system,scores={counter=296..297,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 coal_ore 0 replace barrier
