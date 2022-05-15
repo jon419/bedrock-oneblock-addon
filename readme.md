@@ -30,6 +30,10 @@
     - granite 1
     - andesite 5
 
+- prismarine
+    - prismarine 0
+    - dark prismarine 1
+    - prismarine bricks 2
 
 armor stand with tag system
 

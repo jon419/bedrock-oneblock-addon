@@ -5,7 +5,7 @@ execute @e[tag=system,scores={rand=101..191}] ~ ~ ~ setblock ~ ~ ~ minecraft:cob
 execute @e[tag=system,scores={rand=192..275}] ~ ~ ~ setblock ~ ~ ~ minecraft:stone
 execute @e[tag=system,scores={rand=276..336}] ~ ~ ~ setblock ~ ~ ~ minecraft:mossy_cobblestone
 execute @e[tag=system,scores={rand=337..375}] ~ ~ ~ setblock ~ ~ ~ minecraft:prismarine
-execute @e[tag=system,scores={rand=376..412}] ~ ~ ~ setblock ~ ~ ~ minecraft:log 
+execute @e[tag=system,scores={rand=376..412}] ~ ~ ~ setblock ~ ~ ~ minecraft:log 3
 execute @e[tag=system,scores={rand=413..443}] ~ ~ ~ setblock ~ ~ ~ minecraft:sand
 execute @e[tag=system,scores={rand=444..474}] ~ ~ ~ setblock ~ ~ ~ minecraft:gravel
 execute @e[tag=system,scores={rand=475..502}] ~ ~ ~ setblock ~ ~ ~ minecraft:iron_ore
