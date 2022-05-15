@@ -28,6 +28,7 @@
 - stone
     - stone 0
     - granite 1
+    - diorite 3
     - andesite 5
 
 - prismarine

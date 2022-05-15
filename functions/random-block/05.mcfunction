@@ -10,8 +10,8 @@ execute @e[tag=system,scores={rand=413..443}] ~ ~ ~ setblock ~ ~ ~ minecraft:san
 execute @e[tag=system,scores={rand=444..474}] ~ ~ ~ setblock ~ ~ ~ minecraft:gravel
 execute @e[tag=system,scores={rand=475..502}] ~ ~ ~ setblock ~ ~ ~ minecraft:iron_ore
 execute @e[tag=system,scores={rand=503..529}] ~ ~ ~ setblock ~ ~ ~ minecraft:coal_ore
-execute @e[tag=system,scores={rand=530..556}] ~ ~ ~ setblock ~ ~ ~ minecraft:prismarine_bricks
-execute @e[tag=system,scores={rand=557..582}] ~ ~ ~ setblock ~ ~ ~ minecraft:diorite
+execute @e[tag=system,scores={rand=530..556}] ~ ~ ~ setblock ~ ~ ~ minecraft:prismarine 2
+execute @e[tag=system,scores={rand=557..582}] ~ ~ ~ setblock ~ ~ ~ minecraft:stone 
 execute @e[tag=system,scores={rand=583..605}] ~ ~ ~ setblock ~ ~ ~ minecraft:oak_log
 execute @e[tag=system,scores={rand=606..627}] ~ ~ ~ setblock ~ ~ ~ minecraft:dark_prismarine
 execute @e[tag=system,scores={rand=628..647}] ~ ~ ~ setblock ~ ~ ~ minecraft:snow_block
