@@ -27,7 +27,7 @@ execute @e[tag=system,scores={counter=32}] ~ ~ ~ fill 0 63 0 0 63 0 gravel 0 rep
 execute @e[tag=system,scores={counter=33}] ~ ~ ~ fill 0 63 0 0 63 0 log 0 replace barrier
 execute @e[tag=system,scores={counter=34}] ~ ~ ~ fill 0 63 0 0 63 0 gravel 0 replace barrier
 execute @e[tag=system,scores={counter=35..37}] ~ ~ ~ fill 0 63 0 0 63 0 grass 0 replace barrier
-execute @e[tag=system,scores={counter=36}] ~ ~ ~ give @p minecraft:water_bucket 1
+execute @e[tag=system,scores={counter=36}] ~ ~ ~ structure load "waterbucket" 0 63 0
 
 execute @e[tag=system,scores={counter=38}] ~ ~ ~ fill 0 63 0 0 63 0 gravel 0 replace barrier
 execute @e[tag=system,scores={counter=39}] ~ ~ ~ fill 0 63 0 0 63 0 grass 0 replace barrier

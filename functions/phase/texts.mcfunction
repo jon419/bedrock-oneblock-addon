@@ -5,7 +5,7 @@ execute @e[tag=system,scores={counter=4}] ~ ~ ~ title @a actionbar It spawns §a
 execute @e[tag=system,scores={counter=5}] ~ ~ ~ title @a actionbar Blocks even §aimprove§r over time!
 execute @e[tag=system,scores={counter=6}] ~ ~ ~ title @a actionbar §6Chests§r can also appear!
 execute @e[tag=system,scores={counter=7}] ~ ~ ~ title @a actionbar §6Enlarge§r your platform!
-execute @e[tag=system,scores={counter=15}] ~ ~ ~ title @a actionbar There are §611§r phases!
+execute @e[tag=system,scores={counter=15}] ~ ~ ~ title @a actionbar There are §610§r phases!
 execute @e[tag=system,scores={counter=16}] ~ ~ ~ title @a actionbar Each phase a §6theme§r!
 execute @e[tag=system,scores={counter=17}] ~ ~ ~ title @a actionbar The first phase is §aPlains§r!
 execute @e[tag=system,scores={counter=18}] ~ ~ ~ title @a actionbar There, fitting §6mobs§r and §6blocks§r spawn!
