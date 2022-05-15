@@ -25,7 +25,7 @@
     - fire 3
     - horn 4
 
-stone
+- stone
     - stone 0
     - granite 1
     - andesite 5
