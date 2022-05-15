@@ -1,3 +1,36 @@
+# Block Ids
+
+- log
+    - oak 0
+    - spruce 1
+    - birch 2
+    - jungle 3
+
+-log2
+    - acacia 0
+    - dark oak 1
+
+- sapling
+    - oak 0
+    - spruce 1
+    - birch 2
+    - jungle 3
+    - acacia 4
+    - dark oak 5
+
+- coral
+    - tube 0
+    - brain 1
+    - bubble 2
+    - fire 3
+    - horn 4
+
+stone
+    - stone 0
+    - granite 1
+    - andesite 5
+
+
 armor stand with tag system
 
 command block
