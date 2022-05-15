@@ -24,7 +24,7 @@ execute @e[tag=system,scores={counter=343..344,cooldown=1}] ~ ~ ~ fill 0 63 0 0 
 execute @e[tag=system,scores={counter=345..346,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 stone 0 replace barrier
 execute @e[tag=system,scores={counter=346,cooldown=1}] ~ ~ ~ summon mooshroom 0 64 0 
 execute @e[tag=system,scores={counter=347..350,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 stone 0 replace barrier
-execute @e[tag=system,scores={counter=351,cooldown=1}] ~ ~ ~ structure load "02" 0 63 0
+execute @e[tag=system,scores={counter=351,cooldown=1}] ~ ~ ~ structure load 02-basic 0 63 0
 execute @e[tag=system,scores={counter=352..355,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 stone 0 replace barrier
 execute @e[tag=system,scores={counter=356..357,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 log 2 replace barrier
 execute @e[tag=system,scores={counter=358,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 coal_ore 0 replace barrier
@@ -43,7 +43,7 @@ execute @e[tag=system,scores={counter=391..394,cooldown=1}] ~ ~ ~ fill 0 63 0 0 
 execute @e[tag=system,scores={counter=395..399,cooldown=1}] ~ ~ ~ function random-block/02
 execute @e[tag=system,scores={counter=400,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 iron_ore 0 replace barrier
 execute @e[tag=system,scores={counter=401,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 stone 0 replace barrier
-execute @e[tag=system,scores={counter=402,cooldown=1}] ~ ~ ~ structure load "02" 0 63 0
+execute @e[tag=system,scores={counter=402,cooldown=1}] ~ ~ ~ structure load 02-basic 0 63 0
 execute @e[tag=system,scores={counter=403..411,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 stone 0 replace barrier
 execute @e[tag=system,scores={counter=411,cooldown=1}] ~ ~ ~ function mob/02-rabbit
 execute @e[tag=system,scores={counter=412..414,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 stone 0 replace barrier
@@ -58,7 +58,7 @@ execute @e[tag=system,scores={counter=438..442,cooldown=1}] ~ ~ ~ function rando
 execute @e[tag=system,scores={counter=443,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 stone 1 replace barrier
 execute @e[tag=system,scores={counter=444,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 stone 3 replace barrier
 execute @e[tag=system,scores={counter=445..452,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 stone 0 replace barrier
-execute @e[tag=system,scores={counter=453,cooldown=1}] ~ ~ ~ structure load "02-variety" 0 63 0
+execute @e[tag=system,scores={counter=453,cooldown=1}] ~ ~ ~ structure load 02-variety 0 63 0
 execute @e[tag=system,scores={counter=454,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 stone 0 replace barrier
 execute @e[tag=system,scores={counter=454,cooldown=1}] ~ ~ ~ function mob/02-random
 execute @e[tag=system,scores={counter=455..458,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 stone 0 replace barrier
@@ -81,7 +81,7 @@ execute @e[tag=system,scores={counter=500,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 
 execute @e[tag=system,scores={counter=500,cooldown=1}] ~ ~ ~ function mob/02-random
 execute @e[tag=system,scores={counter=501,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 stone 5 replace barrier
 execute @e[tag=system,scores={counter=502..503,cooldown=1}] ~ ~ ~ function random-block/02
-execute @e[tag=system,scores={counter=504,cooldown=1}] ~ ~ ~ structure load "02" 0 63 0
+execute @e[tag=system,scores={counter=504,cooldown=1}] ~ ~ ~ structure load 02-basic 0 63 0
 execute @e[tag=system,scores={counter=505..506,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 stone 5 replace barrier
 execute @e[tag=system,scores={counter=507..513,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 stone 0 replace barrier
 execute @e[tag=system,scores={counter=514,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 coal_ore 0 replace barrier
@@ -108,7 +108,7 @@ execute @e[tag=system,scores={counter=548..549,cooldown=1}] ~ ~ ~ fill 0 63 0 0 
 execute @e[tag=system,scores={counter=550,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 iron_ore 0 replace barrier
 execute @e[tag=system,scores={counter=551,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 coal_ore 0 replace barrier
 execute @e[tag=system,scores={counter=552..554,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 dirt 0 replace barrier
-execute @e[tag=system,scores={counter=555,cooldown=1}] ~ ~ ~ structure load "02" 0 63 0
+execute @e[tag=system,scores={counter=555,cooldown=1}] ~ ~ ~ structure load 02-basic 0 63 0
 execute @e[tag=system,scores={counter=556..557,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 dirt 0 replace barrier
 execute @e[tag=system,scores={counter=558..561,cooldown=1}] ~ ~ ~ function random-block/02
 execute @e[tag=system,scores={counter=562..564,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 dirt 0 replace barrier
@@ -135,7 +135,7 @@ execute @e[tag=system,scores={counter=597..600,cooldown=1}] ~ ~ ~ fill 0 63 0 0 
 execute @e[tag=system,scores={counter=601,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 stone 3 replace barrier
 execute @e[tag=system,scores={counter=602,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 iron_ore 0 replace barrier
 execute @e[tag=system,scores={counter=603..605,cooldown=1}] ~ ~ ~ function random-block/02
-execute @e[tag=system,scores={counter=606,cooldown=1}] ~ ~ ~ structure load "02" 0 63 0
+execute @e[tag=system,scores={counter=606,cooldown=1}] ~ ~ ~ structure load 02-basic 0 63 0
 execute @e[tag=system,scores={counter=607..609,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 dirt 0 replace barrier
 execute @e[tag=system,scores={counter=609,cooldown=1}] ~ ~ ~ function mob/02-spider
 execute @e[tag=system,scores={counter=610,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 dirt 0 replace barrier
@@ -164,7 +164,7 @@ execute @e[tag=system,scores={counter=644..646,cooldown=1}] ~ ~ ~ fill 0 63 0 0 
 execute @e[tag=system,scores={counter=647..649,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 gravel 0 replace barrier
 execute @e[tag=system,scores={counter=650,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 iron_ore 0 replace barrier
 execute @e[tag=system,scores={counter=651..656,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 dirt 0 replace barrier
-execute @e[tag=system,scores={counter=657,cooldown=1}] ~ ~ ~ structure load "02" 0 63 0
+execute @e[tag=system,scores={counter=657,cooldown=1}] ~ ~ ~ structure load 02-basic 0 63 0
 execute @e[tag=system,scores={counter=658..659,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 log 0 replace barrier
 execute @e[tag=system,scores={counter=660..662,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 stone 1 replace barrier
 execute @e[tag=system,scores={counter=663..665,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 dirt 0 replace barrier
@@ -175,4 +175,4 @@ execute @e[tag=system,scores={counter=672,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 
 execute @e[tag=system,scores={counter=673..675,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 stone 3 replace barrier
 execute @e[tag=system,scores={counter=676,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 stone 1 replace barrier
 execute @e[tag=system,scores={counter=677..679,cooldown=1}] ~ ~ ~ fill 0 63 0 0 63 0 stone 1 replace barrier
-execute @e[tag=system,scores={counter=680,cooldown=1}] ~ ~ ~ structure load "02-gift" 0 63 0
+execute @e[tag=system,scores={counter=680,cooldown=1}] ~ ~ ~ structure load 02-gift 0 63 0

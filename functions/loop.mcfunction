@@ -6,7 +6,7 @@ gamerule sendcommandfeedback false
 tp @a[tag=!loaded] 0 64 0
 tag @a[x=0,y=64,z=0,r=3] add loaded
 spawnpoint @a[tag=loaded,tag=!playing] 0 64 0
-tag @a[tag=loaded,tag=!player,x=0,y=64,z=0,r=3] add playing
+tag @a[tag=loaded,x=0,y=64,z=0,r=3] add playing
 ##gamemode s @a[tag=loaded]
 
 scoreboard objectives add foundair dummy

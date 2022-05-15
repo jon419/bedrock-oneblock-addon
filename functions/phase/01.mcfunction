@@ -25,7 +25,7 @@ execute @e[tag=system,scores={counter=107}] ~ ~ ~ fill 0 63 0 0 63 0 clay 0 repl
 execute @e[tag=system,scores={counter=108}] ~ ~ ~ fill 0 63 0 0 63 0 melon_block 0 replace barrier
 execute @e[tag=system,scores={counter=109}] ~ ~ ~ fill 0 63 0 0 63 0 pumpkin 0 replace barrier
 execute @e[tag=system,scores={counter=110..114}] ~ ~ ~ fill 0 63 0 0 63 0 grass 0 replace barrier
-execute @e[tag=system,scores={counter=115}] ~ ~ ~ structure load "01" 0 63 0
+execute @e[tag=system,scores={counter=115}] ~ ~ ~ structure load 01-basic 0 63 0
 execute @e[tag=system,scores={counter=116..120}] ~ ~ ~ fill 0 63 0 0 63 0 grass 0 replace barrier
 execute @e[tag=system,scores={counter=120}] ~ ~ ~ summon minecraft:sheep 0 64 0
 execute @e[tag=system,scores={counter=121}] ~ ~ ~ fill 0 63 0 0 63 0 podzol 0 replace barrier
@@ -48,7 +48,7 @@ execute @e[tag=system,scores={counter=156}] ~ ~ ~ fill 0 63 0 0 63 0 melon_block
 execute @e[tag=system,scores={counter=157..158}] ~ ~ ~ fill 0 63 0 0 63 0 clay 0 replace barrier
 execute @e[tag=system,scores={counter=158}] ~ ~ ~ summon minecraft:pig 0 64 0
 execute @e[tag=system,scores={counter=159..164}] ~ ~ ~ fill 0 63 0 0 63 0 grass 0 replace barrier
-execute @e[tag=system,scores={counter=165}] ~ ~ ~ structure load "01" 0 63 0
+execute @e[tag=system,scores={counter=165}] ~ ~ ~ structure load 01-basic 0 63 0
 execute @e[tag=system,scores={counter=166}] ~ ~ ~ fill 0 63 0 0 63 0 melon_block 0 replace barrier
 execute @e[tag=system,scores={counter=167..168}] ~ ~ ~ function random-block/01
 execute @e[tag=system,scores={counter=169}] ~ ~ ~ fill 0 63 0 0 63 0 pumpkin 0 replace barrier
@@ -73,7 +73,7 @@ execute @e[tag=system,scores={counter=211..212}] ~ ~ ~ function random-block/01
 execute @e[tag=system,scores={counter=213}] ~ ~ ~ fill 0 63 0 0 63 0 clay 0 replace barrier
 execute @e[tag=system,scores={counter=213}] ~ ~ ~ function mob/01-random
 execute @e[tag=system,scores={counter=214}] ~ ~ ~ fill 0 63 0 0 63 0 clay 0 replace barrier
-execute @e[tag=system,scores={counter=215}] ~ ~ ~ structure load "01" 0 63 0
+execute @e[tag=system,scores={counter=215}] ~ ~ ~ structure load 01-basic 0 63 0
 execute @e[tag=system,scores={counter=216..226}] ~ ~ ~ fill 0 63 0 0 63 0 grass 0 replace barrier
 execute @e[tag=system,scores={counter=227..228}] ~ ~ ~ fill 0 63 0 0 63 0 podzol 0 replace barrier
 execute @e[tag=system,scores={counter=229..230}] ~ ~ ~ fill 0 63 0 0 63 0 log 2 replace barrier
@@ -99,7 +99,7 @@ execute @e[tag=system,scores={counter=260}] ~ ~ ~ fill 0 63 0 0 63 0 clay 0 repl
 execute @e[tag=system,scores={counter=261..262}] ~ ~ ~ fill 0 63 0 0 63 0 log 0 replace barrier
 execute @e[tag=system,scores={counter=263}] ~ ~ ~ fill 0 63 0 0 63 0 log 2 replace barrier
 execute @e[tag=system,scores={counter=264}] ~ ~ ~ fill 0 63 0 0 63 0 log 0 replace barrier
-execute @e[tag=system,scores={counter=265}] ~ ~ ~ structure load "01" 0 63 0
+execute @e[tag=system,scores={counter=265}] ~ ~ ~ structure load 01-basic 0 63 0
 execute @e[tag=system,scores={counter=266..268}] ~ ~ ~ fill 0 63 0 0 63 0 clay 0 replace barrier
 execute @e[tag=system,scores={counter=269}] ~ ~ ~ fill 0 63 0 0 63 0 log 0 replace barrier
 execute @e[tag=system,scores={counter=270}] ~ ~ ~ fill 0 63 0 0 63 0 log 2 replace barrier
@@ -108,5 +108,5 @@ execute @e[tag=system,scores={counter=272}] ~ ~ ~ fill 0 63 0 0 63 0 clay 0 repl
 execute @e[tag=system,scores={counter=273..274}] ~ ~ ~ fill 0 63 0 0 63 0 log 0 replace barrier
 execute @e[tag=system,scores={counter=275}] ~ ~ ~ fill 0 63 0 0 63 0 clay 0 replace barrier
 execute @e[tag=system,scores={counter=276..281}] ~ ~ ~ fill 0 63 0 0 63 0 log 0 replace barrier
-execute @e[tag=system,scores={counter=282}] ~ ~ ~ structure load "01-gift" 0 63 0
+execute @e[tag=system,scores={counter=282}] ~ ~ ~ structure load 01-gift 0 63 0
 
