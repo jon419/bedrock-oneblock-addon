@@ -36,6 +36,35 @@
     - dark prismarine 1
     - prismarine bricks 2
 
+- sand
+    - sand 0
+    - red sand 1
+
+- hardened_clay
+    - terracota 0
+
+- stained_hardened_clay
+    - white 0
+    - orange 1
+    - magenta 2
+    - light blue 3
+    - yellow 4
+    - lime 5
+    - pink 6
+    - gray 7
+    - light gray 8
+    - cyan 9
+    - purple 10
+    - blue 11
+    - brown 12
+    - green 13
+    - red 14
+    - black 15
+
+
+
+
+
 armor stand with tag system
 
 command block
