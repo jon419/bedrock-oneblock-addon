@@ -18,6 +18,18 @@ scoreboard objectives add usermined dummy
 scoreboard objectives add upgradecountdown dummy
 scoreboard objectives add upgrade dummy
 scoreboard objectives add second dummy
+scoreboard objectives add partytime dummy
+scoreboard objectives add partylife dummy
 
+# Block Management
 execute @e[tag=system] ~ ~ ~ scoreboard players add @e[tag=system] upgrade 0
 execute @e[tag=system] ~ ~ ~ function block/manage
+
+# Monster Party
+execute @e[tag=system] ~ ~ ~ scoreboard players add @e[tag=system] partytime 0
+execute @e[tag=system] ~ ~ ~ scoreboard players remove @e[tag=system,scores={partytime=1..}] partytime 1
+
+execute @e[tag=system,tag=party] ~ ~ ~ function monster-party/manager
+
+execute @e[tag=system] ~ ~ ~ scoreboard players remove @e[tag=system,scores={partylife=1..}] partylife 1
+execute @e[tag=system,scores={partylife=1}] ~ ~ ~ function monster-party/despawn

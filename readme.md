@@ -46,4 +46,4 @@ Warning Border:
 - Give all chest structures names
 - Color code names in chest structures
 - investigate bonus rolls in loot tables?
-- monster parties
+- monster party sound
