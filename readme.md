@@ -6,7 +6,7 @@
     - birch 2
     - jungle 3
 
--log2
+- log2
     - acacia 0
     - dark oak 1
 
