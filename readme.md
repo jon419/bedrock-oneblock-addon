@@ -61,6 +61,12 @@
     - red 14
     - black 15
 
+- stone brick
+    - stone bricks 0
+    - mossy stone bricks 1
+    - cracked stone bricks 2
+    - chisled stone bricks 3
+
 
 
 
