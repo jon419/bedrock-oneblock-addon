@@ -1,0 +1,1 @@
+execute @e[tag=system] ~ ~ ~ summon minecraft:wandering_trader 0 64 0
